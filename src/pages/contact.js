@@ -4,10 +4,10 @@ import Header from "../components/header"
 
 export default function Contact() {
     return (
-        <div style={{ color: `teal` }}>
-            <Link to="/home/">Home</Link>
+        <div>
+            <Link to="/">Home</Link>
             <Header headerText="Contact"/>
-            <a href="mailto: daniel.n.thurau@gmail.com">Email me!</a>
+            <a href="mailto: daniel.n.thurau@gmail.com">Email me I guess</a>
         </div>
     );
 }
