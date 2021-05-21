@@ -24,7 +24,10 @@
     "react-helmet": "^6.1.0",
     "react-typography": "^0.16.20",
     "typography": "^0.16.21",
-    "typography-theme-fairy-gates": "^0.16.19"
+    "typography-theme-bootstrap": "^0.16.19",
+    "typography-theme-fairy-gates": "^0.16.19",
+    "typography-theme-funston": "^0.16.19",
+    "typography-theme-github": "^0.16.19"
   },
   "devDependencies": {
     "prettier": "2.2.1"
