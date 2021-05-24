@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Writing from "../components/writing"
 import Az from "../images/az.jpeg"
 import Caesar from "../images/caesar.jpeg"
 
@@ -70,8 +71,8 @@ export default function Home() {
         <div >
           <h1>Latest Writing ✍️</h1>
         </div>
-        <div style={{width:"100%"}}>
-          <div style={{height:`400px`, overflow:`hidden`, width:`50%`, float:"left"}}>
+        <Writing>
+          <div style={{height:`100%`, width:"100%", overflow:"hidden", display:`block`, position:"relative"}}>
             <a href="https://danielthurau.substack.com/p/cross-country-road-trip" style={{textDecoration:"none", color:"inherit"}}>
               <img src={Az} style={{height:`70%`, boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19"}}/>
               <h2>Cross Country Road Trip</h2>
@@ -87,7 +88,7 @@ export default function Home() {
               </p>
               </a>
           </div>
-          <div style={{height:`400px`, overflow:`hidden`, width:`50%`}}>
+          <div style={{height:`100%`, width:"100%", overflow:"hidden", display:`block`, position:"relative"}}>
             <img src={Caesar} style={{height:`70%`, boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19"}}/>
             <h2>Lorem Ipsum</h2>
             <p styles={{overflow:'hidden', textOverflow:"ellipsis", margin:"1px"}}>
@@ -97,7 +98,7 @@ export default function Home() {
             ultricies vulputate mi, nec porttitor felis laoreet non. Duis suscipit.
             </p>
           </div>
-        </div>
+        </Writing>
       </section>
     </Layout>
   );
