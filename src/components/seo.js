@@ -12,6 +12,9 @@ function SEO({ description, lang, meta, title }) {
             title
             description
             author
+            siteurl: url
+            defaultImage: image
+            twitterUsername
           }
         }
       }

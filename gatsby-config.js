@@ -9,6 +9,9 @@ module.exports = {
     title: `Daniel Thurau's Personal Website`,
     description: `The personal website of the software engineer Daniel Thurau.`,
     author: `Daniel Thurau`,
+    url: "https://thurau.io",
+    image: "/images/icon.png",
+    twitterUsername: "@DanielNThurau",
   },
   plugins: [
     {
@@ -37,8 +40,15 @@ module.exports = {
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: `standalone`,
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
+        icon_options: {
+          // For all the options available,
+          // please see the section "Additional Resources" below.
+          purpose: `any maskable`,
+        },
+        crossOrigin: `use-credentials`,
       },
     },
     `gatsby-plugin-react-helmet`,
+    'gatsby-plugin-offline',
   ],
 }

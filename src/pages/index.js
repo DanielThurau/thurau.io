@@ -10,7 +10,7 @@ import Caesar from "../images/caesar.jpeg"
 export default function Home() {
   return (
     <Layout>
-      <SEO title="Homepage" description="Homepage"/>
+      <SEO title="Homepage" description="Homepage of Daniel Thurau's personal website"/>
       <section style={{ marginTop:`50px`}}>
         <div style={{marginBottom:`4rem`}}>
           <h1>About Me 👋</h1>
@@ -76,7 +76,7 @@ export default function Home() {
         <Writing>
           <div style={{height:`400px`, width:"100%", overflow:"hidden", display:`block`, position:"relative"}}>
             <a href="https://danielthurau.substack.com/p/cross-country-road-trip" style={{textDecoration:"none", color:"inherit"}}>
-              <img src={Az} style={{height:`70%`, boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19"}}/>
+              <img src={Az} style={{height:`70%`, boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19"}} alt="Photo from the road trip"/>
               <h2>Cross Country Road Trip</h2>
               <Description 
                 description="My friend Matthew had been in at a job in Arizona. 
@@ -90,7 +90,7 @@ export default function Home() {
               </a>
             </div>
             <div style={{height:`400px`, width:"100%", overflow:"hidden", display:`block`, position:"relative"}}>
-              <img src={Caesar} style={{height:`70%`, boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19"}}/>
+              <img src={Caesar} style={{height:`70%`, boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19"}} alt="Lorem Ipsum"/>
               <h2>Lorem Ipsum</h2>
               <Description 
                 description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed 

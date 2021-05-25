@@ -1,10 +1,12 @@
 import React from "react"
 import Button from "../components/button"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 export default function Contact() {
     return (
         <Layout>
+            <SEO title="Contact" description="Get in contact with Daniel Thurau"/>
             <div style={{backgroundColor:"white", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19"}}>
                 <div style={{margin:"20px", padding:"20px"}}>
                     <h1 headerText="Contact">Contact ✉️</h1>
