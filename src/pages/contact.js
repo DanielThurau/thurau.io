@@ -1,4 +1,5 @@
 import React from "react"
+import Button from "../components/button"
 import Layout from "../components/layout"
 
 export default function Contact() {
@@ -24,7 +25,7 @@ export default function Contact() {
 
                     <div style={{ display:`flex`, justifyContent:`center`}}>
                         <a href="mailto: daniel.n.thurau@gmail.com">
-                        <button >Reach out</button>
+                        <Button>Reach out</Button>
                         </a>
                     </div>
                 </div>

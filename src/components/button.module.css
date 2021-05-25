@@ -1,0 +1,19 @@
+.container {
+    height: 40px;
+    margin: 10px 0;
+    padding: 5px;
+    font-weight: bold;
+    background-color: transparent;
+    transition: 0.1s border-bottom ease;
+    color: #3a3a3a;
+    appearance: none;
+    border: none;
+    outline: none;
+    background: transparent;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container:hover {
+    border-bottom: solid #3a3a3a;
+}

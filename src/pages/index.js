@@ -2,6 +2,8 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Writing from "../components/writing"
+import Description from "../components/description"
+import Button from "../components/button"
 import Az from "../images/az.jpeg"
 import Caesar from "../images/caesar.jpeg"
 
@@ -63,7 +65,7 @@ export default function Home() {
           
           <div style={{ display:`flex`, justifyContent:`center` }}>
             <a href="resume.pdf">
-              <button >Download Full Resume</button>
+              <Button>Download Full Resume</Button>
             </a>
           </div>
           
@@ -72,32 +74,30 @@ export default function Home() {
           <h1>Latest Writing ✍️</h1>
         </div>
         <Writing>
-          <div style={{height:`100%`, width:"100%", overflow:"hidden", display:`block`, position:"relative"}}>
+          <div style={{height:`400px`, width:"100%", overflow:"hidden", display:`block`, position:"relative"}}>
             <a href="https://danielthurau.substack.com/p/cross-country-road-trip" style={{textDecoration:"none", color:"inherit"}}>
               <img src={Az} style={{height:`70%`, boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19"}}/>
               <h2>Cross Country Road Trip</h2>
-              <p styles={{overflow:'hidden', textOverflow:"ellipsis", margin:"1px"}}>
-                My friend Matthew Wheeler had been in a four month training 
-                program in Arizona as an officer in the Army Reserves. I had 
-                just started a sabbatical from my job at Amazon when I got a 
-                message that he finished his course and needed to drive his car 
-                back to Washington D.C. He proposed a road trip through the U.S. 
-                hitting a few national parks along the way. We decided to do as 
-                little planning as possible and to “Do It Live”, so I booked a 
-                flight, packed my bags and jumped on a plane to Phoenix. 
-              </p>
+              <Description 
+                description="My friend Matthew had been in at a job in Arizona. 
+                I had just started a sabbatical from my job at Amazon 
+                when I got a message that he needed to drive his car 
+                back to the East Coast. He proposed a road trip 
+                through the U.S. hitting a few national parks along 
+                the way. We decided to do as little planning as possible 
+                and to “Do It Live”, so I booked a flight, packed my bags 
+                and jumped on a plane to Phoenix. "/>
               </a>
-          </div>
-          <div style={{height:`100%`, width:"100%", overflow:"hidden", display:`block`, position:"relative"}}>
-            <img src={Caesar} style={{height:`70%`, boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19"}}/>
-            <h2>Lorem Ipsum</h2>
-            <p styles={{overflow:'hidden', textOverflow:"ellipsis", margin:"1px"}}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed 
-            mattis ex. Etiam elit urna, semper vitae molestie eget, dignissim 
-            euismod ante. Nam efficitur sed augue sit amet consequat. Nulla 
-            ultricies vulputate mi, nec porttitor felis laoreet non. Duis suscipit.
-            </p>
-          </div>
+            </div>
+            <div style={{height:`400px`, width:"100%", overflow:"hidden", display:`block`, position:"relative"}}>
+              <img src={Caesar} style={{height:`70%`, boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19"}}/>
+              <h2>Lorem Ipsum</h2>
+              <Description 
+                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed 
+                mattis ex. Etiam elit urna, semper vitae molestie eget, dignissim 
+                euismod ante. Nam efficitur sed augue sit amet consequat. Nulla 
+                ultricies vulputate mi, nec porttitor felis laoreet non. Duis suscipit."/>            
+            </div>
         </Writing>
       </section>
     </Layout>
