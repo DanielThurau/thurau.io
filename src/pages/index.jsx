@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import Button from '../components/button';
 import Experience from '../components/experience';
@@ -16,15 +17,14 @@ export default function Home() {
         <div style={{ marginBottom: '4rem' }}>
           <h1>About Me 👋</h1>
           <p>
-            Daniel Thurau is an engineer currently living in San Francisco.
-            He graduated from Univeristy of California: Santa Cruz in 2018 with a
-            BS in Computer Science. He went on to work at Amazon for two years
-            before striking out on his own.
+            I'm a former Amazonian and a Univeristy of California: Santa Cruz alumni with a
+            BS in Computer Science. I currently live in San Francisco and work on cool projects
+            (including this website). I also try to read a lot.
           </p>
           <p>
-            Currently he is reading, writing, traveling, cooking, and reflecting on
-            what he wants to do next. Daniel has several projects in the works that
-            will slowly be released via this website, so keep an eye out!
+            Some of those projects will be releasing on on this very website, so keep and eye out!
+            Feel free to check me out on any of the linked platofrms, and if you want to get 
+            into contact with me professionally, navigate to the Contact page.
           </p>
         </div>
         <div style={{ marginBottom: '4rem' }}>
@@ -33,25 +33,25 @@ export default function Home() {
           <Experience
             title="Amazon F3 - Backend Engineer"
             companyTime="Amazon : Aug '20 - Mar '21"
-            description="Daniel built services for post-order fulfillment orchestration to support grocery delivery products available on Amazon.com."
+            description="I built services for post-order fulfillment orchestration to support grocery delivery products available on Amazon.com."
           />
 
           <Experience
             title="Alexa Mobile Personalization - Backend Engineer"
             companyTime="Amazon : Jan '20 - Aug '20"
-            description="Daniel created Ranking as a Service (RaaS) web services that deployed machine learning for channel owners across the Alexa Mobile Org."
+            description="I created Ranking as a Service (RaaS) web services that deployed machine learning models for channel owners across the Alexa Mobile Org."
           />
 
           <Experience
             title="Alexa Mobile Home Channel - Backend Engineer"
             companyTime="Amazon : Nov '18 - Jan '20"
-            description="Daniel built and deployed microservices in AWS to support content creation for the Home Channel of the Alexa Mobile App. "
+            description="I built and deployed microservices in AWS to support content creation for the Home Channel of the Alexa Mobile App."
           />
 
           <Experience
             title="Learning & Experimental Economics Projects Lab - Developer"
             companyTime="UCSC : Apr '17 - Aug '18"
-            description="Daniel was the lead programmer developing the high frequency trading project platform."
+            description="I was the lead programmer developing the high frequency trading project platform."
           />
 
           <div style={{ display: 'flex', justifyContent: 'center' }}>
