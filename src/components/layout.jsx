@@ -42,10 +42,10 @@ function Layout({ children }) {
         <div style={{ alignItems: 'center' }}>
           <div style={{ height: '100px' }}>
             <Link to="/" style={{ textShadow: 'none', backgroundImage: 'none' }}>
-              <img alt="Daniel" src={Daniel} style={{ height: '100px', borderRadius: '50%' }} />
+              <img alt="Daniel" src={Daniel} style={{ height: '120px', borderRadius: '50%', width: '120px' }} />
             </Link>
           </div>
-          <div style={{ textAlign: 'center' }}>
+          <div style={{ textAlign: 'center', paddingTop: '2px' }}>
             <Link to="/" style={{ textShadow: 'none', backgroundImage: 'none' }}>
               <Button>Daniel Thurau</Button>
             </Link>

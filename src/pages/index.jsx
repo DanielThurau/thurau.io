@@ -22,7 +22,7 @@ export default function Home() {
             (including this website). I also try to read a lot.
           </p>
           <p>
-            Some of those projects will be releasing on on this very website, so keep and eye out!
+            Some of those projects will be releasing on this very website, so keep and eye out!
             Feel free to check me out on any of the linked platofrms, and if you want to get 
             into contact with me professionally, navigate to the Contact page.
           </p>
