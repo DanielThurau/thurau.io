@@ -59,6 +59,9 @@ function Layout({ children }) {
             <ListLink to="/contact/">
               <Button>Contact</Button>
             </ListLink>
+            <ListLink to="/colorsplash/">
+              <Button>ColorSplash</Button>
+            </ListLink>
           </ul>
         </div>
       </header>
