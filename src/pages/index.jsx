@@ -23,8 +23,8 @@ export default function Home() {
           </p>
           <p>
             Some of those projects will be releasing on this very website, so keep and eye out!
-            Feel free to check me out on any of the linked platofrms, and if you want to get 
-            into contact with me professionally, navigate to the Contact page.
+            Feel free to check me out on any of the linked platforms, and if you want to get 
+            in contact with me professionally, navigate to the Contact page.
           </p>
         </div>
         <div style={{ marginBottom: '4rem' }}>
@@ -33,7 +33,7 @@ export default function Home() {
           <Experience
             title="Amazon F3 - Backend Engineer"
             companyTime="Amazon : Aug '20 - Mar '21"
-            description="I built services for post-order fulfillment orchestration to support grocery delivery products available on Amazon.com."
+            description="I built Java web services for post-order fulfillment orchestration to support grocery delivery products available on Amazon.com."
           />
 
           <Experience
