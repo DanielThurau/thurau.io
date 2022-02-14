@@ -31,6 +31,12 @@ export default function Home() {
           <h1>Experience 💻</h1>
 
           <Experience
+            title="Internet Computer: NNS - Software Engineer"
+            companyTime="DFinity : Nov '21 - Present"
+            description="I write software for the Internet Computer. Contributing to the governance system overseeing the network."
+          />
+
+          <Experience
             title="Amazon F3 - Backend Engineer"
             companyTime="Amazon : Aug '20 - Mar '21"
             description="I built Java web services for post-order fulfillment orchestration to support grocery delivery products available on Amazon.com."
